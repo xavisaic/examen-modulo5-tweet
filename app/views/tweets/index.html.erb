@@ -13,9 +13,9 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <form class="d-flex">
-          <input class="form-control me-2" type="text" placeholder="Buscar">
-          <button class="btn btn-primary" type="submit">Buscar</button>
+        <form class="d-flex" action="<%= tweets_path %>" method="get">
+        <input class="form-control me-2" type="text" name="search" placeholder="Buscar">
+        <button class="btn btn-primary" type="submit">Buscar</button>
         </form>
       </div>
     </div>
